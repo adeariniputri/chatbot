@@ -1,0 +1,38 @@
+{"intents": [
+        {"tag": "salam",
+         "patterns": ["Halo", "Assalamu'alaikum", "??", "hai", "oi"],
+         "responses": ["Halo! Selamat Datang", "Waalaikumsalam kak", "Halo! Ada yang bisa dibantu?"],
+         "context_set": ""
+        },
+        {"tag": "penutup",
+         "patterns": [ "ok", "yaudah", "yawes", "oh, ok"],
+         "responses": ["Terimakasih telah menghubungi kami!", "Semoga jawaban kami dapat membantu"],
+         "context_set": ""
+        },
+        {"tag": "jam",
+         "patterns": ["buka jam berapa?", "Jam konsultasi?","layanan kapan?", "jam layanan?", "waktu layanan?", "waktu kunjung?"],
+         "responses": ["Silahkan berkunjung untuk melakukan konsultasi pada jam layanan 08.00-17.00 Senin-Jum'at"],
+         "context_set": ""
+        },
+        {"tag": "alamat",
+         "patterns": ["lokasi?", "lokasi dimana?", "alamat kantor?", "dimana?", "shareloc"],
+         "responses": ["Lokasi kami berada di Jl semangka No 17"],
+         "context_set": ""
+        },
+        {"tag": "fakultas",
+         "patterns": ["fakultas apa saja?", "jumlah fakultas?", "berapa fakultas?", "nama-nama fakultas?"],
+         "responses": ["Fakultas kami berjumlah 6 yaitu : fakultas ekonomi, hukum, teknik, matematika dan IPA, kedokteran, dan ilmu politik"],
+         "context_set": ""
+        },
+        {"tag": "jurusan",
+         "patterns": ["Jurusan apa saja?", "jumlah jurusan?", "berapa jurusan?", "info jurusan"],
+         "responses": ["Untuk mengetahui lebih lanjut, silahkan kunjungi jurusan.net"],
+         "context_set": ""
+        },
+        {"tag": "pendaftaran",
+         "patterns": ["Pendaftaran buka kapam?", "Pendaftaran mulai kapan?", "daftar kapan?", "info pendaftaran"],
+         "responses": ["Pendaftaran dibuka pada 32 Februari 2050. Untuk mengetahui lebih lanjut silahkan kunjungi pendaftaran.net"],
+         "context_set": ""
+        }
+   ]
+}
